@@ -1,10 +1,10 @@
 package com.company;
 
-import javax.swing.*;
+import javax.swing.JFrame;
 
-public class GameFrame extends JFrame {
+public class GameFrame extends JFrame{
 
-    GameFrame() {
+    GameFrame(){
 
         this.add(new GamePanel());
         this.setTitle("Snake");
